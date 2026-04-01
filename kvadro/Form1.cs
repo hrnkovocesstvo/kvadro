@@ -21,7 +21,7 @@ namespace kvadro
         {
             kvatr kv = new kvatr((double)numericUpDownA.Value, (double)numericUpDownB.Value, (double)numericUpDownC.Value);
 
-            textBoxOut.Text = $"objem: {kv.get_objem()} {textBoxJ.Text}{Environment.NewLine}povrch: {kv.get_povrh()} {textBoxJ.Text}";         
+            textBoxOut.Text = $"objem: {kv.get_objem()} {textBoxJ.Text}³{Environment.NewLine}povrch: {kv.get_povrh()} {textBoxJ.Text}²";         
         }
 
         private void label4_Click(object sender, EventArgs e)
